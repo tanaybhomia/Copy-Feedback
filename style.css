@@ -1,0 +1,33 @@
+/* copy-toast.css */
+:root {
+    --content-zen-main-browser-background: var(--zen-main-browser-background);
+}
+#zen-copy-toast {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: 9px 13px;
+    font-size: 16px;
+    font-family: system-ui, sans-serif;
+    border-radius: 14px;
+    font-weight: 500;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.3);
+    z-index: 9999;
+    opacity: 0;
+    transform: scale(0.8);
+    transition:
+        opacity 0.4s ease-in-out,
+        transform 0.3s cubic-bezier(0.25, 1.5, 0.5, 1);
+    pointer-events: none;
+    background-color: var(
+        --content-zen-main-browser-background,
+        #eb73bb
+    ) !important;
+    color: var(--content-zen-text-color, black);
+}
+
+#zen-copy-toast.show {
+    opacity: 1 !important;
+    transform: scale(1) !important;
+}
