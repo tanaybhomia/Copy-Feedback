@@ -1,2 +1,6 @@
 # Copy-Feedback
- Firefox extension when copying something from the page
+ 
+A simple firefox extension which shows a toast when you copy something from a website. Just for a visual feedback. 
+
+## Todo
+- Use the Zen workspace color for the background of the toast which I am unable to do currently.
