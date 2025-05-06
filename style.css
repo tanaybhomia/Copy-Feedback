@@ -20,10 +20,7 @@
         opacity 0.4s ease-in-out,
         transform 0.3s cubic-bezier(0.25, 1.5, 0.5, 1);
     pointer-events: none;
-    background-color: var(
-        --content-zen-main-browser-background,
-        #eb73bb
-    ) !important;
+    background-color: var(--zen.theme.accent-colo, #eb73bb) !important;
     color: var(--content-zen-text-color, black);
 }
 
