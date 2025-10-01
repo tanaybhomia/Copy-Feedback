@@ -11,7 +11,7 @@
     font-family: system-ui, sans-serif;
     border-radius: 14px;
     font-weight: 500;
-    border: 1px solid rgba(0, 0, 0, 0.25);
+    border: 1px solid rgba(0, 0, 0, 0.07);
     box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.3);
     z-index: 9999;
     opacity: 0;
@@ -20,8 +20,8 @@
         opacity 0.4s ease-in-out,
         transform 0.3s cubic-bezier(0.25, 1.5, 0.5, 1);
     pointer-events: none;
-    background-color: var(--zen.theme.accent-colo, #eb73bb) !important;
-    color: var(--content-zen-text-color, black);
+    background-color: #272727 !important;
+    color: #f6f6f6;
 }
 
 #zen-copy-toast.show {
